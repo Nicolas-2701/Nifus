@@ -1,0 +1,46 @@
+/* basico */
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+.navbar{
+    font-family: -apple-system,
+        BlinkMacSystemFont,
+        'Segoe UI',
+        Roboto,
+        Helvetica,
+        Arial,
+        sans-serif;;
+    color: white;
+    background-color: rgb(175, 3, 3);
+    list-style-type: none; /* Remove os marcadores da lista */
+    display: flex; /* Transforma a lista em um flex container */
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    padding: 10px 0; /* Espaçamento interno */
+    justify-content: left;
+    align-items: center;
+}
+
+.marcadores a{
+    color: white;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.marcadores {
+    color: white;
+    list-style-type: none;
+}
+
+.marcadores a:hover{
+    color: black;
+}
+
+.logo{
+    height: 10px;
+    width: auto;
+    padding: 10px;
+    margin: 10px;  
+}
